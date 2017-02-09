@@ -10,13 +10,16 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Alton Kim's Website</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../website/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Theme CSS -->
+    <link href="../website/css/main.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="../website/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -25,45 +28,215 @@
     <![endif]-->
   </head>
 
-  <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <body id="page-top">
+    <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top navbar-custom">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Alton Kim</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active page-scroll">
+                    <a href="#about">About</a>
+                  </li>
+                  <li class="page-scroll">
+                    <a href="#work">Expierences</a>
+                  </li>
+                  <li class="page-scroll">
+                    <a href="#contact">Contact</a>
+                  </li>
+                  <li class="page-scroll">
+                    <a href="#resume">Get my Resume!</a>
+                  </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
       </div>
     </nav>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/batman.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">Alton Kim</span>
+                        <hr class="star-light">
+                        <span class="skills"> Software Developer - Coder - Student</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    <div class="container">
+    <section id="about">
+      <div class="container">
+        <div class="starter-template">
+          <h1>Hi there! I'm Alton! </h1>
+          <p class="lead">Welcome to my website! I'm glad you found me. A few things about myself!</p>
+          <div class = "row">
+          	I am an energetic software developer fresh out of college! I am looking for a career in intreasting technology and open to different oppurtunities!
+          </div>
+          <hr>
+          <div class = "row">
+          	I have a certain love for community and teamwork. So much so that I became the Resident Assistant for 3 years at my college and helped build communities within dorms. 
+          </div>
+        </div>
+      </div><!-- /.container -->
+    </section>
 
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
+    <section id="work">
+      <div class="container">
+        <div class="starter-template">
+          <h1>Experiences</h1>
+          <p class="lead">"The only source of knowledge is experience"</p>
+          <hr>
+          <div class="container">
+			<h2 align="left">Education </h2>
+			<div class = "row">
+			  	<div class = "col-md-4">
+			  		<h4 align="left">College of William & Mary <br/> 2014-2017 </h4>
+			  	</div>
+			  	<div align= "left" class = "col-md-6">
+			  		<p>
+			  		<strong>
+			  		<h4 align="left">BS - Computer Science  <br/> BS - Computational Mathematics</h4>
+			  		</strong>
+			  		The courses were mainly taught in C++, C, Java, and Python. However, I took many electives and dabbled with different
+			  		areas and specilties of computer science: Computer Graphics, Computer Animation, Systems Programming, Database,Software Design, and Operating Systems.
+			  		Here is also where I explored different techonologies such as Unity, Maya, and web development during my free time in college.
+			  		I also had a focus on computational mathematics and used MatLab and Julia for research. 
+			  		</p>
+			  	</div>
+		  	</div>
+		  	<div class = "row">
+			  	<div class = "col-md-4">
+			  		<h4 align="left">McLean High School <br/> 2009-2013 </h4>
+			  	</div>
+			  	<div align= "left" class = "col-md-6">
+			  		<p>
+			  		<strong>
+			  		<h4 align="left">High School Diploma</h4>
+			  		</strong>
+					It was in high school where I was introduced to the world of computer science. I was inspired and helped co-found the Robotics Club and also joined the Computer
+					Science Honor Society. 
+			  		</p>
+			  	</div>
+		  	</div>
+			<hr>
+		  	<h2 align="left">Career </h2>
+		  	<div class = "row">
+			  	<div class = "col-md-4">
+			  		<h4 align="left">Epic Systems<br/> Summer 2016 </h4>
+			  	</div>
+			  	<div align= "left" class = "col-md-6">
+			  		<p>
+			  		<strong>
+			  		<h4 align="left">Software Engineer Intern</h4>
+			  		</strong>
+			  		Here I joined Epic Systems to help engineer a prototype application for iOS.  
+			  		</p>
+			  	</div>
+		  	</div>
+		  	<div class = "row">
+			  	<div class = "col-md-4">
+			  		<h4 align="left">Innovative Defense Technologies <br/> Summer 2015 </h4>
+			  	</div>
+			  	<div align= "left" class = "col-md-6">
+			  		<p>
+			  		<strong>
+			  		<h4 align="left">Software Engineer Intern</h4>
+			  		</strong>
+			  		Here I joined IDT(Innovative Defense Technologies) 
+			  		</p>
+			  	</div>
+		  	</div>
+			<div class = "row">
+			  	<div class = "col-md-4">
+			  		<h4 align="left">NASA(National Aeronautics and Space Administration)<br/> Summer 2014 </h4>
+			  	</div>
+			  	<div align= "left" class = "col-md-6">
+			  		<p>
+			  		<strong>
+			  		<h4 align="left">Software Engineer Intern</h4>
+			  		</strong>
+			  		Here I joined NASA
+			  		</p>
+			  	</div>
+		  	</div>
+		  	<div class = "row">
+			  	<div class = "col-md-4">
+			  		<h4 align="left">College of William and Mary<br/> 2016-2017 </h4>
+			  	</div>
+			  	<div align= "left" class = "col-md-6">
+			  		<p>
+			  		<strong>
+			  		<h4 align="left">Computer Lab Consultant</h4>
+			  		</strong>
+			  		Here I joined NASA
+			  		</p>
+			  	</div>
+		  	</div>
+        </div>
+      </div><!-- /.container -->
+    </section>
 
-    </div><!-- /.container -->
+    <section id="contact">
+      <div class="container">
+        <div class="starter-template">
+          <h1>Contact Me!</h1>
+          <p class="lead">Welcome to my website! I'm glad you found me. A few things about myself!</p>
+        </div>
+      </div><!-- /.container -->
+    </section>
 
+    <section id="resume">
+      <div class="container">
+        <div class="row">
+          <h1>Get my Resume</h1>
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <a href="#" class="btn btn-lg btn-outline">
+                    <i class="fa fa-download"></i> Download Resume
+                </a>
+            </div>
+        </div>
+      </div><!-- /.container -->
+    </section>
 
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+               
+            
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Alton Kim 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../website/js/bootstrap.min.js"></script>
     
-  </body>
+
+    <!-- Custom JS -->
+    <script src="js/website.js"></script>
+
+    </body>
 </html>
