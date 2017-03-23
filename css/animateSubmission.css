@@ -1,8 +1,15 @@
 #submission{
 	background:  #27ae60;
 }
+
 img {
- 	max-height: 300px; 
+ 	max-height: 400px; 
+ 	max-width: 400px;
+ 	margin-left: auto; 
+ 	margin-right: auto
+ }
+#uniStory {
+ 	max-height: 800px; 
  	max-width: 400px;
  	margin-left: auto; 
  	margin-right: auto
@@ -12,7 +19,9 @@ img {
  }
  p{
  	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
- 	font-size:130%
+ 	font-size:130%;
+ 	margin-left: 10px;
+ 	margin-right: 10px;
  }
  .container{
  	width:90%;
